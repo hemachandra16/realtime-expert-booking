@@ -4,7 +4,7 @@ import ExpertCard from '../components/ExpertCard';
 import LoadingSpinner from '../components/LoadingSpinner';
 
 const API = import.meta.env.VITE_API_URL || 'http://localhost:5000';
-const categories = ['All', 'Technology', 'Finance', 'Health', 'Legal', 'Business', 'Marketing'];
+const categories = ['All', 'Vedic Astrology', 'Tarot Reading', 'Numerology', 'Palmistry', 'Vastu Shastra', 'KP Astrology'];
 
 export default function ExpertListing() {
   const [experts, setExperts] = useState([]);

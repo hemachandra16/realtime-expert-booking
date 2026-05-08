@@ -6,7 +6,7 @@ import {
 import axios from 'axios';
 import { API_URL, COLORS } from '../constants';
 
-const categories = ['All', 'Technology', 'Finance', 'Health', 'Legal', 'Business', 'Marketing'];
+const categories = ['All', 'Vedic Astrology', 'Tarot Reading', 'Numerology', 'Palmistry', 'Vastu Shastra', 'KP Astrology'];
 
 export default function ExpertListingScreen({ navigation }) {
   const [experts, setExperts] = useState([]);
