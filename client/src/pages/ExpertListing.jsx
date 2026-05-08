@@ -76,7 +76,7 @@ export default function ExpertListing() {
       {/* Hero */}
       <section className="hero">
         <h1>Book a Session with an Expert</h1>
-        <p>Connect with top professionals across Technology, Finance, Health, Legal & more</p>
+        <p>Connect with top astrologers across Vedic Astrology, Tarot, Numerology, Vastu & more</p>
         <button className="hero-cta" onClick={scrollToGrid}>Explore Experts</button>
       </section>
 
